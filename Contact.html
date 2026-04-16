@@ -1,0 +1,125 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bootstrap demo</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+  <link rel="stylesheet" href="Css/style.css">
+</head>
+
+<body>
+
+  <!-- Navbar starts here  -->
+  <nav class="navbar navbar-expand-lg bg-success">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="index.html">
+        <img src="Image/Screenshot (6).png" alt="" class="rounded-circle">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <p class="fw-bold pt-3 fs-4">Agricultural Information Hub</p>
+        <ul class="navbar-nav ms-auto me-5 mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="Farming Guides.html">Farming Guides</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="Crops Details.html">Crops Details</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="Pest Control.html">Pest Control</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="Contact.html">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- Navbar ends here  -->
+
+
+  <!-- contact starts here  -->
+  <div>
+    <h2 class="text-center text-success my-3"><span class="border-bottom border-3 border-success">Contact Us</span></h2>
+  </div>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-7">
+        <h2 class="text-center text-success my-3"><span class="border-bottom border-3 border-success">Send Us a
+            message</span></h2>
+        <div>
+          <form action="" method="get" class="needs-validation" onsubmit="alert('Submitted Successfully')">
+            <div class="row mb-3">
+              <div class="col-lg-6 mt-3">
+                <input type="text" class="form-control" placeholder="First name" aria-label="First name" required>
+              </div>
+              <div class="col-lg-6 mt-3">
+                <input type="text" class="form-control" placeholder="Last name" aria-label="Last name" required>
+              </div>
+            </div>
+            <div class="mb-3">
+              <input type="email" class="form-control" placeholder="Email Address" aria-label="Email Address" required>
+            </div>
+            <div class="mb-3">
+              <input type="numeric" pattern="[0-9]{11}" id="phone" class="form-control" placeholder="Phone Number"
+                aria-label="Phone Number" required>
+            </div>
+            <div class="mb-3">
+              <input type="text" id="address" class="form-control" placeholder="Address" aria-label="Address" required>
+            </div>
+
+            <div class="mb-3">
+              <input type="text" id="Message" class="form-control" placeholder="Message" aria-label="Address" required>
+            </div>
+            <div class="mb-3">
+              <input class="form-control" type="file" id="formFile">
+            </div>
+
+            <div class="mb-3">
+              <button type="submit" id="phone" class="btn btn-outline-success w-100" aria-label="Submit">Submit</button>
+            </div>
+        </div>
+        </form>
+      </div>
+      <div class="col-lg-5">
+        <h2 class="text-center text-success my-3"><span class="border-bottom border-3 border-success">Direct Contact</span></h2>
+       <div class="m-2 py-2">
+         <address class="fs-5 m-0 p-0"><b>Address:</b> SSDI, Kakrail Mur, Dhaka</address>
+        <!-- address othoba p tag use korle same hobe  -->
+        <p class="fs-5 m-0 p-0"><b>Email:</b> ssidbd@gmail.com</p>
+        <p class="fs-5"><b>Mobile: </b>0123456799</p>
+       </div>
+        <div>
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3652.278495061183!2d90.40701217447064!3d23.73744628927514!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755b9183ec90c79%3A0xe1511972be9e4337!2z4Ka44Ka-4Kau4Ka-4KaH4Kaw4Ka-IOCmuOCnjeCmleCmv-CmsiDgpqHgp4fgpq3gp4fgprLgpqrgpq7gp4fgpqjgp43gpp8g4KaH4Kao4Ka44KeN4Kaf4Ka_4Kaf4Ka_4KaJ4KafICjgprbgpqbgpr8p!5e0!3m2!1sbn!2sbd!4v1775629512531!5m2!1sbn!2sbd"
+            width="100%" height="250" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+      </div>
+
+    </div>
+  </div>
+  <!-- contact ends here  -->
+
+  <!-- footer starts here  -->
+  <footer class="container-fluid bg-success mt-4">
+    <p class="py-4 text-center mb-0">&copy; Copyright restricted</p>
+  </footer>
+  <!-- footer ends here  -->
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+    crossorigin="anonymous"></script>
+  <script src="Js/script.js"></script>
+</body>
+
+</html>
